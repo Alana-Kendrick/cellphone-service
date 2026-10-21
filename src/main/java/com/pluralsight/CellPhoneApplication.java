@@ -12,6 +12,7 @@ public class CellPhoneApplication {
         System.out.print("What is the serial number? ");
         int serialNumber = scanner.nextInt();
         deviceOne.setSerialNumber(serialNumber);
+        scanner.nextLine(); // scanner buffer
 
         System.out.print("What model is the phone? ");
         String model = scanner.nextLine();
